@@ -1,0 +1,12 @@
+PODS:
+  - PLeakSniffer (0.1.0)
+
+DEPENDENCIES:
+  - PLeakSniffer
+
+SPEC CHECKSUMS:
+  PLeakSniffer: f7eb13cd3a36150e0a2fd5fe8a33ca83bd2646d4
+
+PODFILE CHECKSUM: f07f9e5cc20609fc1574d0772be0d211cffb58cf
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F676B2CFA48E06F471B833B4578144 /* PObjectProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1F380D2309CF81385B687445AAF00F /* PObjectProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F10410C9CE0062CC7A7AF6BAEECCDD8 /* NSObject+PLeakTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 163DF1E3CDA4F8DAC26680315CB7D37C /* NSObject+PLeakTrack.m */; };
+		26B432EFC49C84205F8D57E2584C814E /* UIViewController+PLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A9857620E746D2A92530638C4F9C74 /* UIViewController+PLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EA37BC4D2B4B07EA344E9654CAC039B /* UIView+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 879F7666F8EBF1CE7C4A306A600CC05B /* UIView+PLeak.m */; };
+		544CE196FC485EB2D5564ADBA876F57B /* UIView+PLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD7EDDA9138026FE06109B23310FFD9 /* UIView+PLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56ED6BFCBE713219558C4AD7A158DBB0 /* Pods-WebViewAndPLeakSniffer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6E6EDE1B4CA9630AD8EA09E9EEE1DC /* Pods-WebViewAndPLeakSniffer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6815FA5DE3E45995F3208A01ED01151F /* PLeakSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BEB09A3BF8476002096F0E9EDC65E4 /* PLeakSniffer.m */; };
+		6BED7388587ACF9A69DB7D55B423354A /* PLeakSniffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F41CDF76695A7210434AC98C8F96CC3B /* PLeakSniffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		787546DE0AEA242C6B96A9081DFCAE9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7B211617670F4996C432F7B51FE65C7C /* UINavigationController+PLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A479865891E6B8C96A67E28622FF79 /* UINavigationController+PLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D35A9E2A31D8D79CE016A88D8DEAB9E /* PLeakSniffer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AEA30B6CE00A52FEE1E6E70DC0DC1DD /* PLeakSniffer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA743F2D96587308E4B4A8164FB58BD /* UIViewController+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A05BEAC9E90B78464405C04873EFAE6 /* UIViewController+PLeak.m */; };
+		91D9ECED901E162B8F68EAEB5188ED9D /* PObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62527F948EFEBFD9BBBECF4F572BB194 /* PObjectProxy.m */; };
+		922AC2BDA8038C205DD550B1CF6DF4FA /* NSObject+PLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = F145D8B119495E14C2C91CA570F352AD /* NSObject+PLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F185F4BEDAB0F93021FB8EDDF702B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A173508CEBC2926907E695D73ED96D32 /* NSObject+PLeakTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E70E2AE53E77DA4368DD3E048A5313 /* NSObject+PLeakTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4AD064F0A7A0BB0D5E7FB3FA316BB8F /* PLeakSniffer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45F2094AD181B49A42FA0F4AF71F752 /* PLeakSniffer-dummy.m */; };
+		BCC3D1A27D1370A52D6ED8BD3BAF0126 /* NSObject+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F139D99088ED52FB7EA3B9789CFE37 /* NSObject+PLeak.m */; };
+		EE527F301784A5196CC84301EAF5304B /* UINavigationController+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E81FEFD382CFA84A7FF397D8918C3 /* UINavigationController+PLeak.m */; };
+		EEC8B0850C8251D57B60B4DE1A7F42F1 /* Pods-WebViewAndPLeakSniffer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3A09D24484EBA2EFF6D8994E2C20E3 /* Pods-WebViewAndPLeakSniffer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC72DF98E4C8EC65A95AE9E33D8A224D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE113DD68074088A6E1A604BBF0CA546;
+			remoteInfo = PLeakSniffer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01020C74B032D36EBB937CD759262B2F /* Pods-WebViewAndPLeakSniffer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewAndPLeakSniffer.release.xcconfig"; sourceTree = "<group>"; };
+		079FE89467F6C23C05050AAA153D3BB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3A09D24484EBA2EFF6D8994E2C20E3 /* Pods-WebViewAndPLeakSniffer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebViewAndPLeakSniffer-dummy.m"; sourceTree = "<group>"; };
+		0F1E81FEFD382CFA84A7FF397D8918C3 /* UINavigationController+PLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PLeak.m"; path = "PLeakSniffer/Classes/UINavigationController+PLeak.m"; sourceTree = "<group>"; };
+		163DF1E3CDA4F8DAC26680315CB7D37C /* NSObject+PLeakTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PLeakTrack.m"; path = "PLeakSniffer/Classes/NSObject+PLeakTrack.m"; sourceTree = "<group>"; };
+		1AEA30B6CE00A52FEE1E6E70DC0DC1DD /* PLeakSniffer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PLeakSniffer-umbrella.h"; sourceTree = "<group>"; };
+		20F139D99088ED52FB7EA3B9789CFE37 /* NSObject+PLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PLeak.m"; path = "PLeakSniffer/Classes/NSObject+PLeak.m"; sourceTree = "<group>"; };
+		23644EA7188A5F5CCD34D1D9B08CF780 /* PLeakSniffer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLeakSniffer.xcconfig; sourceTree = "<group>"; };
+		26BEB09A3BF8476002096F0E9EDC65E4 /* PLeakSniffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLeakSniffer.m; path = PLeakSniffer/Classes/PLeakSniffer.m; sourceTree = "<group>"; };
+		296C542D6F2C210D3053839FF4C91392 /* Pods-WebViewAndPLeakSniffer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WebViewAndPLeakSniffer.modulemap"; sourceTree = "<group>"; };
+		2A05BEAC9E90B78464405C04873EFAE6 /* UIViewController+PLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PLeak.m"; path = "PLeakSniffer/Classes/UIViewController+PLeak.m"; sourceTree = "<group>"; };
+		3CEA71B95A128E9500CF973CB6B4189F /* Pods-WebViewAndPLeakSniffer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebViewAndPLeakSniffer-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E6E6EDE1B4CA9630AD8EA09E9EEE1DC /* Pods-WebViewAndPLeakSniffer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebViewAndPLeakSniffer-umbrella.h"; sourceTree = "<group>"; };
+		578DAC9D8CF7CF63DC50DB51E55D61E7 /* Pods-WebViewAndPLeakSniffer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebViewAndPLeakSniffer-resources.sh"; sourceTree = "<group>"; };
+		5FFB2BFA0692DD77D879869E57072981 /* PLeakSniffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PLeakSniffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62527F948EFEBFD9BBBECF4F572BB194 /* PObjectProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PObjectProxy.m; path = PLeakSniffer/Classes/PObjectProxy.m; sourceTree = "<group>"; };
+		76A9857620E746D2A92530638C4F9C74 /* UIViewController+PLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PLeak.h"; path = "PLeakSniffer/Classes/UIViewController+PLeak.h"; sourceTree = "<group>"; };
+		7819F78288174F967C3DA569B3E1AF0A /* PLeakSniffer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PLeakSniffer.modulemap; sourceTree = "<group>"; };
+		7B29E60B9D2FB62C844172FE3A06E32D /* Pods_WebViewAndPLeakSniffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewAndPLeakSniffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8640E6DF5E3E83240E320074D18B6A5C /* Pods-WebViewAndPLeakSniffer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebViewAndPLeakSniffer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		879F7666F8EBF1CE7C4A306A600CC05B /* UIView+PLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PLeak.m"; path = "PLeakSniffer/Classes/UIView+PLeak.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E70E2AE53E77DA4368DD3E048A5313 /* NSObject+PLeakTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PLeakTrack.h"; path = "PLeakSniffer/Classes/NSObject+PLeakTrack.h"; sourceTree = "<group>"; };
+		9E1F380D2309CF81385B687445AAF00F /* PObjectProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PObjectProxy.h; path = PLeakSniffer/Classes/PObjectProxy.h; sourceTree = "<group>"; };
+		A26573351AC64A5BB63CDD9D3E3B5589 /* Pods-WebViewAndPLeakSniffer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebViewAndPLeakSniffer-frameworks.sh"; sourceTree = "<group>"; };
+		B45F2094AD181B49A42FA0F4AF71F752 /* PLeakSniffer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PLeakSniffer-dummy.m"; sourceTree = "<group>"; };
+		B92B15C2B2463417C4BDF5D4D905C0C3 /* PLeakSniffer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PLeakSniffer-prefix.pch"; sourceTree = "<group>"; };
+		C8EF16B34FB1457E83C12F0A01F15E24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4A479865891E6B8C96A67E28622FF79 /* UINavigationController+PLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PLeak.h"; path = "PLeakSniffer/Classes/UINavigationController+PLeak.h"; sourceTree = "<group>"; };
+		E7D759E0A195C9FBD111FFBC0F5E5E23 /* Pods-WebViewAndPLeakSniffer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewAndPLeakSniffer.debug.xcconfig"; sourceTree = "<group>"; };
+		F145D8B119495E14C2C91CA570F352AD /* NSObject+PLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PLeak.h"; path = "PLeakSniffer/Classes/NSObject+PLeak.h"; sourceTree = "<group>"; };
+		F41CDF76695A7210434AC98C8F96CC3B /* PLeakSniffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLeakSniffer.h; path = PLeakSniffer/Classes/PLeakSniffer.h; sourceTree = "<group>"; };
+		FCD7EDDA9138026FE06109B23310FFD9 /* UIView+PLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PLeak.h"; path = "PLeakSniffer/Classes/UIView+PLeak.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D857F2D5076A40C23DE8A9D13F0D57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F185F4BEDAB0F93021FB8EDDF702B98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92A5A0CF34682C0DF435CEB9F18DD8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787546DE0AEA242C6B96A9081DFCAE9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		42F0E557AF918D05B2BABBE3ED1C8F9F /* Pods-WebViewAndPLeakSniffer */ = {
+			isa = PBXGroup;
+			children = (
+				079FE89467F6C23C05050AAA153D3BB3 /* Info.plist */,
+				296C542D6F2C210D3053839FF4C91392 /* Pods-WebViewAndPLeakSniffer.modulemap */,
+				8640E6DF5E3E83240E320074D18B6A5C /* Pods-WebViewAndPLeakSniffer-acknowledgements.markdown */,
+				3CEA71B95A128E9500CF973CB6B4189F /* Pods-WebViewAndPLeakSniffer-acknowledgements.plist */,
+				0B3A09D24484EBA2EFF6D8994E2C20E3 /* Pods-WebViewAndPLeakSniffer-dummy.m */,
+				A26573351AC64A5BB63CDD9D3E3B5589 /* Pods-WebViewAndPLeakSniffer-frameworks.sh */,
+				578DAC9D8CF7CF63DC50DB51E55D61E7 /* Pods-WebViewAndPLeakSniffer-resources.sh */,
+				4E6E6EDE1B4CA9630AD8EA09E9EEE1DC /* Pods-WebViewAndPLeakSniffer-umbrella.h */,
+				E7D759E0A195C9FBD111FFBC0F5E5E23 /* Pods-WebViewAndPLeakSniffer.debug.xcconfig */,
+				01020C74B032D36EBB937CD759262B2F /* Pods-WebViewAndPLeakSniffer.release.xcconfig */,
+			);
+			name = "Pods-WebViewAndPLeakSniffer";
+			path = "Target Support Files/Pods-WebViewAndPLeakSniffer";
+			sourceTree = "<group>";
+		};
+		5C5509406BCFBF7A7B094973A2785FDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF16B34FB1457E83C12F0A01F15E24 /* Info.plist */,
+				7819F78288174F967C3DA569B3E1AF0A /* PLeakSniffer.modulemap */,
+				23644EA7188A5F5CCD34D1D9B08CF780 /* PLeakSniffer.xcconfig */,
+				B45F2094AD181B49A42FA0F4AF71F752 /* PLeakSniffer-dummy.m */,
+				B92B15C2B2463417C4BDF5D4D905C0C3 /* PLeakSniffer-prefix.pch */,
+				1AEA30B6CE00A52FEE1E6E70DC0DC1DD /* PLeakSniffer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PLeakSniffer";
+			sourceTree = "<group>";
+		};
+		7B4A5D4A9FB3BDBA1251EF7ED56EC9F9 /* PLeakSniffer */ = {
+			isa = PBXGroup;
+			children = (
+				F145D8B119495E14C2C91CA570F352AD /* NSObject+PLeak.h */,
+				20F139D99088ED52FB7EA3B9789CFE37 /* NSObject+PLeak.m */,
+				95E70E2AE53E77DA4368DD3E048A5313 /* NSObject+PLeakTrack.h */,
+				163DF1E3CDA4F8DAC26680315CB7D37C /* NSObject+PLeakTrack.m */,
+				F41CDF76695A7210434AC98C8F96CC3B /* PLeakSniffer.h */,
+				26BEB09A3BF8476002096F0E9EDC65E4 /* PLeakSniffer.m */,
+				9E1F380D2309CF81385B687445AAF00F /* PObjectProxy.h */,
+				62527F948EFEBFD9BBBECF4F572BB194 /* PObjectProxy.m */,
+				D4A479865891E6B8C96A67E28622FF79 /* UINavigationController+PLeak.h */,
+				0F1E81FEFD382CFA84A7FF397D8918C3 /* UINavigationController+PLeak.m */,
+				FCD7EDDA9138026FE06109B23310FFD9 /* UIView+PLeak.h */,
+				879F7666F8EBF1CE7C4A306A600CC05B /* UIView+PLeak.m */,
+				76A9857620E746D2A92530638C4F9C74 /* UIViewController+PLeak.h */,
+				2A05BEAC9E90B78464405C04873EFAE6 /* UIViewController+PLeak.m */,
+				5C5509406BCFBF7A7B094973A2785FDD /* Support Files */,
+			);
+			path = PLeakSniffer;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C9D94D31FC86B20C1CCE151CB7873CDD /* Pods */,
+				8F2A863D486F2CB10A85D8201E6BD42B /* Products */,
+				A8B81A20F5B395EB99DED31F88C184A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F2A863D486F2CB10A85D8201E6BD42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FFB2BFA0692DD77D879869E57072981 /* PLeakSniffer.framework */,
+				7B29E60B9D2FB62C844172FE3A06E32D /* Pods_WebViewAndPLeakSniffer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B81A20F5B395EB99DED31F88C184A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F0E557AF918D05B2BABBE3ED1C8F9F /* Pods-WebViewAndPLeakSniffer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D94D31FC86B20C1CCE151CB7873CDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B4A5D4A9FB3BDBA1251EF7ED56EC9F9 /* PLeakSniffer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7350A8DBDA173C96AC3F92B16B9C1811 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922AC2BDA8038C205DD550B1CF6DF4FA /* NSObject+PLeak.h in Headers */,
+				A173508CEBC2926907E695D73ED96D32 /* NSObject+PLeakTrack.h in Headers */,
+				7D35A9E2A31D8D79CE016A88D8DEAB9E /* PLeakSniffer-umbrella.h in Headers */,
+				6BED7388587ACF9A69DB7D55B423354A /* PLeakSniffer.h in Headers */,
+				14F676B2CFA48E06F471B833B4578144 /* PObjectProxy.h in Headers */,
+				7B211617670F4996C432F7B51FE65C7C /* UINavigationController+PLeak.h in Headers */,
+				544CE196FC485EB2D5564ADBA876F57B /* UIView+PLeak.h in Headers */,
+				26B432EFC49C84205F8D57E2584C814E /* UIViewController+PLeak.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1CB6508EA915E62BDF860632197467 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED6BFCBE713219558C4AD7A158DBB0 /* Pods-WebViewAndPLeakSniffer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85F5C88CD0AEC6622358159D70685B1A /* Pods-WebViewAndPLeakSniffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9E50B55507A570555BB15F32C21A86 /* Build configuration list for PBXNativeTarget "Pods-WebViewAndPLeakSniffer" */;
+			buildPhases = (
+				51DCEA34491551FD848161A91EB9F8EF /* Sources */,
+				F92A5A0CF34682C0DF435CEB9F18DD8B /* Frameworks */,
+				ED1CB6508EA915E62BDF860632197467 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2813067DA9A6C26088BB29313822C9F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WebViewAndPLeakSniffer";
+			productName = "Pods-WebViewAndPLeakSniffer";
+			productReference = 7B29E60B9D2FB62C844172FE3A06E32D /* Pods_WebViewAndPLeakSniffer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE113DD68074088A6E1A604BBF0CA546 /* PLeakSniffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B43F0234E5C90DEEFB3597882CA2C /* Build configuration list for PBXNativeTarget "PLeakSniffer" */;
+			buildPhases = (
+				686B7A1B9E578A909C097FC85E5314E5 /* Sources */,
+				9D857F2D5076A40C23DE8A9D13F0D57F /* Frameworks */,
+				7350A8DBDA173C96AC3F92B16B9C1811 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLeakSniffer;
+			productName = PLeakSniffer;
+			productReference = 5FFB2BFA0692DD77D879869E57072981 /* PLeakSniffer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F2A863D486F2CB10A85D8201E6BD42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE113DD68074088A6E1A604BBF0CA546 /* PLeakSniffer */,
+				85F5C88CD0AEC6622358159D70685B1A /* Pods-WebViewAndPLeakSniffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51DCEA34491551FD848161A91EB9F8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC8B0850C8251D57B60B4DE1A7F42F1 /* Pods-WebViewAndPLeakSniffer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		686B7A1B9E578A909C097FC85E5314E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC3D1A27D1370A52D6ED8BD3BAF0126 /* NSObject+PLeak.m in Sources */,
+				1F10410C9CE0062CC7A7AF6BAEECCDD8 /* NSObject+PLeakTrack.m in Sources */,
+				B4AD064F0A7A0BB0D5E7FB3FA316BB8F /* PLeakSniffer-dummy.m in Sources */,
+				6815FA5DE3E45995F3208A01ED01151F /* PLeakSniffer.m in Sources */,
+				91D9ECED901E162B8F68EAEB5188ED9D /* PObjectProxy.m in Sources */,
+				EE527F301784A5196CC84301EAF5304B /* UINavigationController+PLeak.m in Sources */,
+				4EA37BC4D2B4B07EA344E9654CAC039B /* UIView+PLeak.m in Sources */,
+				8AA743F2D96587308E4B4A8164FB58BD /* UIViewController+PLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2813067DA9A6C26088BB29313822C9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PLeakSniffer;
+			target = FE113DD68074088A6E1A604BBF0CA546 /* PLeakSniffer */;
+			targetProxy = FC72DF98E4C8EC65A95AE9E33D8A224D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C6E65CD9FEDC2AD393B76967730B169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23644EA7188A5F5CCD34D1D9B08CF780 /* PLeakSniffer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PLeakSniffer/PLeakSniffer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PLeakSniffer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PLeakSniffer/PLeakSniffer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PLeakSniffer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D4E814CC74AB1C0CE6C8EA16B844760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23644EA7188A5F5CCD34D1D9B08CF780 /* PLeakSniffer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PLeakSniffer/PLeakSniffer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PLeakSniffer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PLeakSniffer/PLeakSniffer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PLeakSniffer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7840CD7CD8A7DE2B9E05A7E3DC5B8BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D759E0A195C9FBD111FFBC0F5E5E23 /* Pods-WebViewAndPLeakSniffer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WebViewAndPLeakSniffer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebViewAndPLeakSniffer/Pods-WebViewAndPLeakSniffer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebViewAndPLeakSniffer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BB6E5739BD43F5D65C80720EBEE3D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01020C74B032D36EBB937CD759262B2F /* Pods-WebViewAndPLeakSniffer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WebViewAndPLeakSniffer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebViewAndPLeakSniffer/Pods-WebViewAndPLeakSniffer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebViewAndPLeakSniffer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9E50B55507A570555BB15F32C21A86 /* Build configuration list for PBXNativeTarget "Pods-WebViewAndPLeakSniffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7840CD7CD8A7DE2B9E05A7E3DC5B8BA9 /* Debug */,
+				9BB6E5739BD43F5D65C80720EBEE3D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38B43F0234E5C90DEEFB3597882CA2C /* Build configuration list for PBXNativeTarget "PLeakSniffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4E814CC74AB1C0CE6C8EA16B844760 /* Debug */,
+				2C6E65CD9FEDC2AD393B76967730B169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

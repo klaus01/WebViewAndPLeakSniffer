@@ -1,0 +1,6 @@
+framework module Pods_WebViewAndPLeakSniffer {
+  umbrella header "Pods-WebViewAndPLeakSniffer-umbrella.h"
+
+  export *
+  module * { export * }
+}
